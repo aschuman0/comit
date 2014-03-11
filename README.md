@@ -1,4 +1,5 @@
-# Comit - A max patch without an acronym.
+# Comit
+### A max patch without an acronym.
 
 _This will be an ongoing and evolving project._
 
