@@ -6,6 +6,7 @@ _This will be an ongoing and evolving project._
 ## Current requirements:
 - [Max6 Runtime](http://cycling74.com/downloads/runtime/) 
 - Monome 64
+
 ## Probable future requirements:
 - Touchscreen device capable of running [touchOSC](http://hexler.net/software/touchosc) (iOS or Android Tablet)
 
