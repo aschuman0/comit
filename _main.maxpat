@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 31.0, 57.0, 1366.0, 766.0 ],
+		"rect" : [ 0.0, 44.0, 1136.0, 806.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,6 +29,19 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "bpatcher",
+					"name" : "buffer_row.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 98.0, 19.0, 516.0, 67.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 98.0, 19.0, 516.0, 67.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
@@ -47,22 +60,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 27.0, 87.0, 45.0, 45.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-2",
-					"linecount" : 4,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 17.0, 579.0, 60.0 ],
-					"text" : "See the note file in evernote. \nBUT\nThe first task is to build a sinlge line mlr with no memory that plays off a buffer. \nEncapsulate that then make 4 of them with a single input that assigns the item to a line on the monome."
+					"patching_rect" : [ 26.933332, 19.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -86,7 +84,14 @@
 
 			}
  ],
-		"dependency_cache" : [  ]
+		"dependency_cache" : [ 			{
+				"name" : "buffer_row.maxpat",
+				"bootpath" : "/Users/aschuman/code/max/comit",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ]
 	}
 
 }
