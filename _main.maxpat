@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1136.0, 806.0 ],
+		"rect" : [ 0.0, 44.0, 1440.0, 806.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -32,11 +32,12 @@
 					"id" : "obj-18",
 					"maxclass" : "bpatcher",
 					"name" : "buffer_row.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 98.0, 19.0, 516.0, 67.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "int", "", "", "" ],
+					"patching_rect" : [ 191.0, 86.0, 181.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 98.0, 19.0, 516.0, 67.0 ]
+					"presentation_rect" : [ 18.0, 9.0, 574.0, 82.0 ]
 				}
 
 			}
